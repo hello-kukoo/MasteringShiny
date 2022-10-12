@@ -10,7 +10,5 @@ app_server <- function(input, output, session) {
   mod_chapter2_server("chapter2_1")
   mod_chapter3_server("chapter3_1")
   mod_chapter4_server("chapter4_1")
-  mod_chapter5_server("chapter5_1")
-  mod_chapter6_server("chapter6_1")
   mod_chapter7_server("chapter7_1")
 }

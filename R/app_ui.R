@@ -28,12 +28,6 @@ app_ui <- function(request) {
           shinydashboard::menuItem("Chapter 4",
                                    tabName = "chapter4"
           ),
-          shinydashboard::menuItem("Chapter 5",
-                                   tabName = "chapter5"
-          ),
-          shinydashboard::menuItem("Chapter 6",
-                                   tabName = "chapter6"
-          ),
           shinydashboard::menuItem("Chapter 7",
                                    tabName = "chapter7"
           )
@@ -46,8 +40,6 @@ app_ui <- function(request) {
           shinydashboard::tabItem("chapter2", mod_chapter2_ui("chapter2_1")),
           shinydashboard::tabItem("chapter3", mod_chapter3_ui("chapter3_1")),
           shinydashboard::tabItem("chapter4", mod_chapter4_ui("chapter4_1")),
-          shinydashboard::tabItem("chapter5", mod_chapter5_ui("chapter5_1")),
-          shinydashboard::tabItem("chapter6", mod_chapter6_ui("chapter6_1")),
           shinydashboard::tabItem("chapter7", mod_chapter7_ui("chapter7_1"))
         )
       ),
